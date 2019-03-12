@@ -115,9 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Planet.h" />
     <ClInclude Include="Planet_Builder.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Planet.cpp" />
     <ClCompile Include="Planet_Builder.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
